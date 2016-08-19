@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">myhello</string>
+    <string name="hello">hello world!</string>
+    <string name="m_button">我是一个按钮</string>
+    <string name="title_activity_second">第二个activity</string>
+    <string name="title_activity_third">第三个activity</string>
+    <string name="title_activity_forth">第四个activity</string>
+    <string name="bt_activity_second_three">跳转到第三个activity</string>
+    <string name="bt_activity_second_four">获取第四个activity返回数据</string>
+    <string name="bt_activity_four_second">确定返回</string>
+</resources>

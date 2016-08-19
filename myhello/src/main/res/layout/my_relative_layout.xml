@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/bt_refer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是参照物"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/bt_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右边按钮"
+        android:layout_toRightOf="@+id/bt_refer"
+        android:layout_alignTop="@+id/bt_refer"
+        />
+
+    <Button
+        android:id="@+id/bt_above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上部按钮"
+        android:layout_above="@+id/bt_refer"
+        android:layout_alignLeft="@+id/bt_refer"
+        />
+
+
+    <Button
+        android:id="@+id/bt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左边按钮"
+        android:layout_toLeftOf="@+id/bt_refer"
+        android:layout_alignTop="@+id/bt_refer"
+        />
+    <Button
+        android:id="@+id/bt_below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下部按钮"
+        android:layout_below="@+id/bt_refer"
+        android:layout_alignLeft="@+id/bt_refer"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下下边按钮"
+        android:layout_below="@+id/bt_below"
+        android:layout_alignRight="@+id/bt_right"
+        android:layout_alignEnd="@+id/bt_right"
+        android:layout_marginRight="38dp"
+        android:layout_marginEnd="38dp" />
+</RelativeLayout>
